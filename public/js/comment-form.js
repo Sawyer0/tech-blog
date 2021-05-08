@@ -1,9 +1,9 @@
 async function newFormHandler(event) {
   event.preventDefault();
-  const commentbody = document.querySelector("#commentbody").value;
+  const comment = document.querySelector("#commentbody").value;
   const response = await fetch(`/api/comment`, {
     method: 'POST',
-    body: JSON.stringify({ commentbody }),
+    body: JSON.stringify({ comment }),
     headers: {
       'Content-Type': 'application/json',
     },
