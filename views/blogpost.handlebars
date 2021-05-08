@@ -1,0 +1,30 @@
+<section class="card">
+    <header><h1>{{blogpost.title}}</h1></header>
+    <p>{{blogpost.post_body}}</p>
+    <h2>Posted by {{user.username}}</h2>
+</section>
+<div class="add-comment-container">
+  <h2>
+    Leave a Comment
+  </h2>
+  <form class="comment-form">
+    <label for="comment">
+      Comment:
+    </label>
+    <br />
+    <textarea id="commentbody" name="commentbody" rows="5" cols="100">
+      {{comment}}
+    </textarea>
+    <br />
+    <button type="submit" value="Submit">
+      Submit
+    </button>
+  </form>
+</div>
+{{#each Comment}}
+<section class="card">
+    <header><h2>{{user.username}}</h2> at {{created_at}}</header>
+</section>
+{{/each}}
+
+<script src="../public/js/comment-form.js"></script>
