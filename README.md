@@ -8,12 +8,12 @@
 
 ## Table of Contents
 
-- Deployment
-- License
-- Installation
-- Usage
-- Contributing
-- Badges
+- [Deployment](#deployment)
+- [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contribution)
+
 
 
 
@@ -23,9 +23,9 @@
 
 ## License
 
-#### This project is licensed under MIT.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-<!-- ![license screenshot](image.jpg) -->
+
 
 ## Installation
 
