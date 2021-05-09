@@ -1,7 +1,6 @@
 # Tech-Blog
 
-### **Using handlebars to create a tech-blog website.** 
-### **Where users can signup, login, and logout. View other blog posts and create their own.**
+Using handlebars to create a tech-blog website where users can signup, login, and logout. View other blog posts and create their own. All of which is then saved to the database.
 
 ![app screenshot](images\Screenshot.png)
 
@@ -42,6 +41,6 @@
 
 ## Contributing
 
-#### This repo is available to fork.
+ This repo is available to fork.
 
 
